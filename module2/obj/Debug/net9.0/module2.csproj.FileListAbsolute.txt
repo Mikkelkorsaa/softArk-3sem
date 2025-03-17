@@ -1,0 +1,14 @@
+C:\Users\Asger\source\repos\asgermunk\softArk\module2\bin\Debug\net9.0\module2.exe
+C:\Users\Asger\source\repos\asgermunk\softArk\module2\bin\Debug\net9.0\module2.deps.json
+C:\Users\Asger\source\repos\asgermunk\softArk\module2\bin\Debug\net9.0\module2.runtimeconfig.json
+C:\Users\Asger\source\repos\asgermunk\softArk\module2\bin\Debug\net9.0\module2.dll
+C:\Users\Asger\source\repos\asgermunk\softArk\module2\bin\Debug\net9.0\module2.pdb
+C:\Users\Asger\source\repos\asgermunk\softArk\module2\obj\Debug\net9.0\module2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asger\source\repos\asgermunk\softArk\module2\obj\Debug\net9.0\module2.AssemblyInfoInputs.cache
+C:\Users\Asger\source\repos\asgermunk\softArk\module2\obj\Debug\net9.0\module2.AssemblyInfo.cs
+C:\Users\Asger\source\repos\asgermunk\softArk\module2\obj\Debug\net9.0\module2.csproj.CoreCompileInputs.cache
+C:\Users\Asger\source\repos\asgermunk\softArk\module2\obj\Debug\net9.0\module2.dll
+C:\Users\Asger\source\repos\asgermunk\softArk\module2\obj\Debug\net9.0\refint\module2.dll
+C:\Users\Asger\source\repos\asgermunk\softArk\module2\obj\Debug\net9.0\module2.pdb
+C:\Users\Asger\source\repos\asgermunk\softArk\module2\obj\Debug\net9.0\module2.genruntimeconfig.cache
+C:\Users\Asger\source\repos\asgermunk\softArk\module2\obj\Debug\net9.0\ref\module2.dll

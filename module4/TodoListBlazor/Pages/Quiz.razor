@@ -1,0 +1,138 @@
+@page "/quiz"
+@using TodoListBlazor.Data
+@inject QuizService quizService
+
+<h3>Quiz</h3>
+
+@if (quizData == null)
+{
+    <p>Loading...</p>
+}
+else if (currentQuestionIndex < quizData.Length)
+{
+    <div>
+        <strong>@quizData[currentQuestionIndex].Text</strong>
+        <ul>
+            @foreach (var answer in quizData[currentQuestionIndex].Answers.Select((value, index) => new { value, index }))
+            {
+                <li>
+                    <button @onclick="() => SelectAnswer(answer.index)">
+                        @answer.value.Text
+                    </button>
+                </li>
+            }
+        </ul>
+        @if (selectedAnswer != null)
+        {
+            <p class="@(isAnswerCorrect ? "correct" : "incorrect")">
+                @(isAnswerCorrect ? "Correct" : "Incorrect")
+            </p>
+            <button @onclick="NextQuestion">Next Question</button>
+        }
+    </div>
+}
+else
+{
+    <p>Quiz completed!</p>
+}
+
+@code {
+    private QuizData[]? quizData;
+    private int currentQuestionIndex = 0;
+    private int? selectedAnswer;
+    private bool isAnswerCorrect;
+
+    protected override async Task OnInitializedAsync()
+    {
+        quizData = await quizService.GetQuizData();
+        quizService.RefreshRequired += StateHasChanged;
+    }
+
+    private async Task SelectAnswer(int answerIndex)
+    {
+        selectedAnswer = answerIndex;
+        isAnswerCorrect = await answerQuestion(answerIndex);
+    }
+
+    private void NextQuestion()
+    {
+        if (currentQuestionIndex < quizData.Length - 1)
+        {
+            currentQuestionIndex++;
+            selectedAnswer = null;
+        }
+    }
+
+    private async Task<bool> answerQuestion(int answerIndex)
+    {
+        var answerStatus = await quizService.GetAnswer(currentQuestionIndex, answerIndex);
+        return answerStatus.Correct;
+    }
+}
+
+<style>
+    h3 {
+        text-align: center;
+        font-size: 2em;
+        color: #333;
+    }
+
+    div {
+        margin: 20px auto;
+        padding: 20px;
+        max-width: 600px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    strong {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 1.5em;
+        color: #555;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        margin: 10px 0;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 1em;
+        color: #fff;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+    button:disabled {
+        background-color: #ccc;
+        cursor: not-allowed;
+    }
+
+    p {
+        text-align: center;
+        font-size: 1.2em;
+        color: #333;
+    }
+
+    .correct {
+        color: green;
+    }
+
+    .incorrect {
+        color: red;
+    }
+</style>

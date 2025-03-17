@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\module3.props" />
+</Project>
