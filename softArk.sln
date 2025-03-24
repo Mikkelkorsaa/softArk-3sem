@@ -20,6 +20,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "module6-opgave3", "module6-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApi", "module6-opgave3\book-api-ef\TodoApi.csproj", "{A544EA72-6C20-4BC6-8005-46120193252A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "module10", "module10", "{9A09DFB9-588F-4915-BA15-EA5E044C1C90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "search", "module10\search\search.csproj", "{47AA2ED9-37B5-401C-A19E-C15EE4F0D023}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "module11", "module11", "{D3A28337-6FC6-4A82-B7F7-BB8DAA3E49EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "list", "module11\LinkedList\list.csproj", "{CC2912A1-1F05-4F09-9917-31C63315D131}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +62,14 @@ Global
 		{A544EA72-6C20-4BC6-8005-46120193252A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A544EA72-6C20-4BC6-8005-46120193252A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A544EA72-6C20-4BC6-8005-46120193252A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47AA2ED9-37B5-401C-A19E-C15EE4F0D023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47AA2ED9-37B5-401C-A19E-C15EE4F0D023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47AA2ED9-37B5-401C-A19E-C15EE4F0D023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47AA2ED9-37B5-401C-A19E-C15EE4F0D023}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC2912A1-1F05-4F09-9917-31C63315D131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC2912A1-1F05-4F09-9917-31C63315D131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC2912A1-1F05-4F09-9917-31C63315D131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC2912A1-1F05-4F09-9917-31C63315D131}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,5 +80,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{ECD66BCD-52A1-42D9-8F68-3637F21048D4} = {DD2361F3-298D-4CBF-8C3A-05C85441335E}
 		{A544EA72-6C20-4BC6-8005-46120193252A} = {7E1E66B4-C99F-4AAC-A294-984614A49B5A}
+		{47AA2ED9-37B5-401C-A19E-C15EE4F0D023} = {9A09DFB9-588F-4915-BA15-EA5E044C1C90}
+		{CC2912A1-1F05-4F09-9917-31C63315D131} = {D3A28337-6FC6-4A82-B7F7-BB8DAA3E49EC}
 	EndGlobalSection
 EndGlobal

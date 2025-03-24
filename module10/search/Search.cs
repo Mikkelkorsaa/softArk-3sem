@@ -74,16 +74,16 @@ namespace SearchMethods
         public static int[] InsertSorted(int tal)
         {
             System.Console.WriteLine("this is next" + next);
-            if(sortedArray.Length == next)
+            if (sortedArray.Length == next)
             {
                 return sortedArray;
             }
-            int i = Search.next -1;
+            int i = next - 1;
             while (sortedArray[i] > tal)
             {
                 sortedArray[i + 1] = sortedArray[i];
                 i--;
-                if(i == -1)
+                if (i == -1)
                 {
                     break;
                 }

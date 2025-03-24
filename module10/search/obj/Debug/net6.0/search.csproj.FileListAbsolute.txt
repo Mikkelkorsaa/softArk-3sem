@@ -197,3 +197,4 @@ C:\Users\asger\Documents\GitHub\softArk-3sem\module10\search\obj\Debug\net6.0\re
 C:\Users\asger\Documents\GitHub\softArk-3sem\module10\search\obj\Debug\net6.0\search.pdb
 C:\Users\asger\Documents\GitHub\softArk-3sem\module10\search\obj\Debug\net6.0\search.genruntimeconfig.cache
 C:\Users\asger\Documents\GitHub\softArk-3sem\module10\search\obj\Debug\net6.0\ref\search.dll
+C:\Users\Asger\source\repos\asgermunk\3sem\softArk\module10\search\obj\Debug\net6.0\search.sourcelink.json
