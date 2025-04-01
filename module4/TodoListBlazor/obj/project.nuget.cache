@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/mtQqQB/izs=",
+  "dgSpecHash": "gbMODlkpO9w=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\softArk\\module4\\TodoListBlazor\\TodoListBlazor.csproj",
+  "projectFilePath": "C:\\Users\\Asger\\Documents\\GitHub\\softArk-3sem\\module4\\TodoListBlazor\\TodoListBlazor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asger\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.0\\microsoft.aspnetcore.authorization.6.0.0.nupkg.sha512",
     "C:\\Users\\Asger\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.0\\microsoft.aspnetcore.components.6.0.0.nupkg.sha512",

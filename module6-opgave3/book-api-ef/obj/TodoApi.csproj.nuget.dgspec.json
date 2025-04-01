@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\softArk\\module6-opgave3\\book-api-ef\\TodoApi.csproj": {}
+    "C:\\Users\\Asger\\Documents\\GitHub\\softArk-3sem\\module6-opgave3\\book-api-ef\\TodoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\softArk\\module6-opgave3\\book-api-ef\\TodoApi.csproj": {
+    "C:\\Users\\Asger\\Documents\\GitHub\\softArk-3sem\\module6-opgave3\\book-api-ef\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\softArk\\module6-opgave3\\book-api-ef\\TodoApi.csproj",
+        "projectUniqueName": "C:\\Users\\Asger\\Documents\\GitHub\\softArk-3sem\\module6-opgave3\\book-api-ef\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\softArk\\module6-opgave3\\book-api-ef\\TodoApi.csproj",
+        "projectPath": "C:\\Users\\Asger\\Documents\\GitHub\\softArk-3sem\\module6-opgave3\\book-api-ef\\TodoApi.csproj",
         "packagesPath": "C:\\Users\\Asger\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\softArk\\module6-opgave3\\book-api-ef\\obj\\",
+        "outputPath": "C:\\Users\\Asger\\Documents\\GitHub\\softArk-3sem\\module6-opgave3\\book-api-ef\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

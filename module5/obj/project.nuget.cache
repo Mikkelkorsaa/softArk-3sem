@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ct7L/C2Rsio=",
+  "dgSpecHash": "CUCBnPxDyJI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\softArk\\module5\\module5.csproj",
+  "projectFilePath": "C:\\Users\\Asger\\Documents\\GitHub\\softArk-3sem\\module5\\module5.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asger\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Asger\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\7.0.4\\microsoft.aspnetcore.diagnostics.entityframeworkcore.7.0.4.nupkg.sha512",
