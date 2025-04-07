@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P6DJUWZfE50=",
+  "dgSpecHash": "9ksCC2ipj70=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\softArk\\module10\\search\\search.csproj",
+  "projectFilePath": "C:\\Users\\Asger\\Documents\\GitHub\\softArk-3sem\\module10\\search\\search.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asger\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\Asger\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",

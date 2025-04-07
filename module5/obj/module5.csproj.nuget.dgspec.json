@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\softArk\\module5\\module5.csproj": {}
+    "C:\\Users\\Asger\\Documents\\GitHub\\softArk-3sem\\module5\\module5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\softArk\\module5\\module5.csproj": {
+    "C:\\Users\\Asger\\Documents\\GitHub\\softArk-3sem\\module5\\module5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\softArk\\module5\\module5.csproj",
+        "projectUniqueName": "C:\\Users\\Asger\\Documents\\GitHub\\softArk-3sem\\module5\\module5.csproj",
         "projectName": "module5",
-        "projectPath": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\softArk\\module5\\module5.csproj",
+        "projectPath": "C:\\Users\\Asger\\Documents\\GitHub\\softArk-3sem\\module5\\module5.csproj",
         "packagesPath": "C:\\Users\\Asger\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\softArk\\module5\\obj\\",
+        "outputPath": "C:\\Users\\Asger\\Documents\\GitHub\\softArk-3sem\\module5\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

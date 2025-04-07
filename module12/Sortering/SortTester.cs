@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using System.Collections.Generic;
 
 namespace Sortering;
 
@@ -19,14 +20,15 @@ public class SortTester
         int[] bigArray1 = (int[])bigArray.Clone();
         int[] bigArray2 = (int[])bigArray.Clone();
         int[] bigArray3 = (int[])bigArray.Clone();
-        int[] bigArray4 = (int[])bigArray.Clone();
+        // Create a list for MergeSort instead of an array
+        List<int> bigArray4 = new List<int>(bigArray);
         int[] bigArray5 = (int[])bigArray.Clone();
 
         Stopwatch stopWatch = new Stopwatch();
 
         // Bubble Sort Test
         stopWatch.Start();
-        BubbleSort.Sort(bigArray1);
+        // BubbleSort.Sort(bigArray1);
         stopWatch.Stop();
         TimeSpan ts = stopWatch.Elapsed;
         string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}",
@@ -78,5 +80,4 @@ public class SortTester
             ts.Milliseconds / 10);
         Console.WriteLine("QuickSort " + elapsedTime);
     }
-
 }
