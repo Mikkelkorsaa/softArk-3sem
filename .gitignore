@@ -8,6 +8,7 @@
 #ANNOYING SHIT!
 **/bin/
 **/TestResults/
+**/obj/
 # User-specific files
 *.rsuser
 *.suo

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qzoq+D97glM=",
+  "dgSpecHash": "iKh5OXqBbBs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\softArk\\module13\\eksempel\\eksempel.csproj",
+  "projectFilePath": "C:\\Users\\Asger\\Documents\\GitHub\\softArk-3sem\\module13\\eksempel\\eksempel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asger\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
     "C:\\Users\\Asger\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
