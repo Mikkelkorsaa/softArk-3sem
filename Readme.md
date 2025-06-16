@@ -193,3 +193,66 @@ This repository contains implementations of fundamental computer science concept
 public override int GetHashCode() {
     return Id + Username.GetHashCode();
 }
+```
+---
+
+### Module 16: Authentication & Security
+**📁 Location:** modul16/
+
+### Security Features
+- Password Hashing: PBKDF2 with 128-bit salt (100,000 iterations)
+- Custom Authentication Handler: Role-based authorization
+- API Security: Protected endpoints with custom schemes
+
+### Roles & Policies
+- Admin - Full access to admin endpoints
+- CakeLover - Access to cake-related endpoints
+- Anonymous access for public endpoints
+
+### Implementation Files
+- password-hashing/Program.cs - Secure password hashing
+- unsecure-api/DummyAuthenticationHandler.cs - Custom auth logic
+
+### Quick Reference
+- 📊 Algorithm Complexities
+
+Search Algorithms:
+├── Linear Search: O(n)
+└── Binary Search: O(log n)
+
+Sorting Algorithms:
+├── O(n²): Bubble, Insertion, Selection
+└── O(n log n): Quick Sort, Merge Sort
+
+### 🏗️ Design Patterns Used
+- Repository Pattern - DataService classes across modules
+- Dependency Injection - Throughout web projects
+- MVC/Component Architecture - Blazor frontend
+- Factory Pattern - DbContext creation
+
+### 🔒 Security Best Practices
+- Password hashing with salt
+- Role-based authorization
+- CORS configuration
+- Custom authentication handlers
+
+### 🚀 Technologies Stack
+- Backend: ASP.NET Core, Entity Framework Core
+- Fontend: Blazor WebAssembly
+- Database: SQLite
+- Testing: MSTest Framework
+- Authentication: Custom JWT-like implementation
+
+### 🎓 Exam Preparation Notes
+#### Critical Concepts to Remember
+
+- Time Complexity Analysis - Big O notation for all algorithms
+- Data Structure Trade-offs - When to use arrays vs linked lists vs hash tables
+- Entity Framework Relationships - One-to-many, many-to-many configurations
+- Web API Design - RESTful principles and HTTP methods
+- Security Implementation - Proper password storage and authentication flows
+
+#### Common Patterns
+- CRUD Operations - Consistent across all data modules
+- Error Handling - Try-catch patterns and null checking
+- Async Programming - Task-based asynchronous operations in web modules
