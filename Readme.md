@@ -197,7 +197,7 @@ public override int GetHashCode() {
 ---
 
 ### Module 16: Authentication & Security
-**📁 Location:** modul16/
+**📁 Location:** `modul16/`
 
 ### Security Features
 - Password Hashing: PBKDF2 with 128-bit salt (100,000 iterations)
