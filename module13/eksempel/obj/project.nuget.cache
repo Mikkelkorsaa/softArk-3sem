@@ -1,13 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "iKh5OXqBbBs=",
+  "dgSpecHash": "nfbxiXqg2uM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asger\\Documents\\GitHub\\softArk-3sem\\module13\\eksempel\\eksempel.csproj",
+  "projectFilePath": "/home/korsaa/Dev/softArk-3sem/module13/eksempel/eksempel.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Asger\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
-    "C:\\Users\\Asger\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
-    "C:\\Users\\Asger\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
-    "C:\\Users\\Asger\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+    "/home/korsaa/.nuget/packages/microsoft.netcore.app.ref/6.0.36/microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "/home/korsaa/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.36/microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "/home/korsaa/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.36/microsoft.netcore.app.host.linux-x64.6.0.36.nupkg.sha512"
   ],
   "logs": []
 }
